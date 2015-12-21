@@ -13,8 +13,8 @@ Run with
 node server.js
 
 Routes:
-yourwebsite.com:9000/
-yourwebsite.com:9000/#login
+yourwebsite.com:9000/   
+yourwebsite.com:9000/#login        (username:admin password:pass)
 yourwebsite.com:9000/#dashboard
 
 Fronend Type:
