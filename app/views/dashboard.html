@@ -1,0 +1,45 @@
+	<div ng-include="'views/tbl_tpl.html'"></div>
+
+    <h1 class="page-header">Xero Dashboard</h1>
+
+	<div class="row">
+        <div class='col-sm-3'>
+            <div class="form-group">
+                <div class='input-group date'>
+                    <input type='text' class="form-control" ng-model="start_date"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+		<div class='col-sm-3'>
+            <div class="form-group">
+                <div class='input-group date'>
+                    <input type='text' class="form-control" ng-model="end_date" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+		<div class='col-sm-3'>
+			<button type="button" class="btn btn-primary"  ng-click="Get_Data()">Load Data</button>
+		</div>
+        <script type="text/javascript">
+            $(function () {
+                $('.date').datetimepicker({format: 'YYYY-MM-DD'});
+            });
+        </script>
+    </div>
+	
+	<div class="dataTable_wrapper accounts cm"></div>
+	<div class="dataTable_wrapper payments cm"></div>	
+	<div class="col-md-12 containerpie cm"></div>
+	<div class="col-md-12 containertimeseries cm"></div>
+	
+	
+	
+
+	
+	

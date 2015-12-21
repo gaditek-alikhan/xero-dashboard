@@ -1,0 +1,5 @@
+strong.title{display:block;margin-left:80px;}
+	.pagination,.dataTables_filter{float:right;margin-right:5px;}
+	th{padding-left:5px !important;}
+	strong.error,span.required{color:red;}
+	div.cm{margin-top:20px;}
